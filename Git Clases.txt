@@ -27,3 +27,5 @@ git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis 
 git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local)
 
 git pull (es merge+fetch a la misma vez)
+
+git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
