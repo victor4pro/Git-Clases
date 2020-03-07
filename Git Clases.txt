@@ -21,3 +21,9 @@ git stash (Graba el status del directorio actual pero quieres volver a otro esta
 git restore "FileName" (Descarta los cambios hechos en el archivo antes del próximo commit)
 
 git push (Hacer commit pero repositorio remoto)
+
+git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
+
+git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local)
+
+git pull (es merge+fetch a la misma vez)
