@@ -24,7 +24,7 @@ git push (Hacer commit pero repositorio remoto)
 
 git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
 
-git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local)
+git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local, con merge puedo fusionar las ramas 					*importante)
 
 git pull (es merge+fetch a la misma vez)
 
