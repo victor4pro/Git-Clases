@@ -1,3 +1,5 @@
+git config --list or git config -l (Para ver parámetros de configuración)
+
 git reset "#log" --hard (Vuelve a la version pero no guarda con los que esté en el staging area)
 
 git reset "#log" --soft (Vuelve a la versión anterior guardando los que esté en staging area preparado así para algún commit)
@@ -25,6 +27,7 @@ git push (Hacer commit pero repositorio remoto)
 git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
 
 git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local, con merge puedo fusionar las ramas 					*importante)
+			(Si al fucionar una rama existe un conflicto, se debe corregir luego agregar y hacer commit)
 
 git pull (es merge+fetch a la misma vez)
 
