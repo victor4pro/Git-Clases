@@ -1,0 +1,7 @@
+git remote add origin "Aquí va la dirección del repositorio"
+
+git remote -v (Me indica opciones que puedo hacer)
+
+git push origin "nombre de la rama que quiero enviar" "Envío los archivos al repsitorio remoto"
+
+git pull origin master --allow-unrelated-histories (Me permite traer un repositorio sin realción y hacer merge)
