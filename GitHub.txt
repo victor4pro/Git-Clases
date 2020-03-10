@@ -1,7 +1,23 @@
 git remote add origin "Aquí va la dirección del repositorio"
 
+git remote set-url origin "Aquí va la dirección en SSH"
+
 git remote -v (Me indica opciones que puedo hacer)
 
 git push origin "nombre de la rama que quiero enviar" "Envío los archivos al repsitorio remoto"
 
 git pull origin master --allow-unrelated-histories (Me permite traer un repositorio sin realción y hacer merge)
+
+#SSH (Crifrado de llaves publicas y privadas)
+
+ssh-keygen -t rsa -b 4096 -C "correo" (Creación de cifrado ssd en git)
+
+ssh-add ~/.ssh/id_rsa (Agregar llave privada a la pc)
+
+eval $(ssh-agent -s) (Verificar si el programa de llaves esté corriendo SSH Agent en tu máquina Windows y Linux)
+
+git config --global user.name (Cambiar usuario de forma global)
+
+git config --global user.email (Cambiar correo de forma global)
+
+git config --global --unset-all user.name (Eliminar el user name, se puede hacer lo mismo para el correo)
