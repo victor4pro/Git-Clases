@@ -1,0 +1,21 @@
+git log --all (muestra absolutamente todos los cambios y no solamente los últimos)
+
+git log --all --graph (Muestra conexiones de ramas)
+
+git log --all --graph --decorate --oneline (Muestra conexiones de ramas pero más comprimidas)
+
+alias arbolito = "git log --all --graph" (truco de linux para comprimir comandos mounstrosos)
+
+git tag -a v0.1 -m "Nombre cualquier" #NumeroDeLog (Agrego un tag a un log)
+
+git tag (Muestra lista de todos los tags)
+
+git tag -d "Nombre del tag" (Elimino algún tag)
+
+git push origin :refs/tags/NombreTag (Borro el tag pero en el repositorio remoto)
+
+git show-ref --tags (Puedo ver a que log está asociado el tag)
+
+history (muestra historia de comandos)
+
+git push origin master --tags (envío la versión final al repositorio remoto)
