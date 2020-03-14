@@ -12,7 +12,7 @@ git checkout "#log" "NombreArchivo" (Veo cierto archivo en algún status anterio
 
 git checkout master "NombreArchivo" (Vuelvo el archivo a la ultima versión de log)
 
-git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+git rm --cached "NombreArchivo" (Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro)
 
 git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
 
