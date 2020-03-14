@@ -1,34 +1,31 @@
-git config --list or git config -l (Para ver parámetros de configuración)
+git init (Inicialiar git en la carpeta)
 
-git reset "#log" --hard (Vuelve a la version pero no guarda con los que esté en el staging area)
+git status (Ver estados del archivo)
 
-git reset "#log" --soft (Vuelve a la versión anterior guardando los que esté en staging area preparado así para algún commit)
+git add "Nombre del archivo" (agrego archivos al staging area)
 
-ls -al (Veo todos los archivos incluso los archivos que están ocultos)
+git add . (Agrego todos los archivos a la vez al staging area)
 
-git log --stat (Veo los cambios por logs, cuales archivos se crearon y cuantos bytes nuevos se agregaron)
+git commit (Crear punto de control - abre modo progarmación para salir esc+wq o esc+shift z)
 
-git checkout "#log" "NombreArchivo" (Veo cierto archivo en algún status anterior)
+git commit -m "mensaje" (Hacer commit con un mensaje)
 
-git checkout master "NombreArchivo" (Vuelvo el archivo a la ultima versión de log)
+git log (Observo código de creaciones de punto de control)
 
-git rm --cached: Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro.
+git checkout (Vuelvo los cambios)
 
-git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
+git diff #log1 - #log2 (Observo las diferencias entre dos logs)
 
-git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+.gitnore (Archivo donde debo escribir otros archivos a ser ignorados por git)
 
-git stash (Graba el status del directorio actual pero quieres volver a otro estado previo de los archivos)
+git branch (Me indica en que rama estoy)
 
-git restore "FileName" (Descarta los cambios hechos en el archivo antes del próximo commit)
+git branch "nombre de la rama" (me cambio de rama)
 
-git push (Hacer commit pero repositorio remoto)
+pwd (veo la dirección del directorio en el que estoy)
 
-git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
+git config --global user.name (Cambiar usuario de forma global)
 
-git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local, con merge puedo fusionar las ramas 					*importante)
-			(Si al fucionar una rama existe un conflicto, se debe corregir luego agregar y hacer commit)
+git config --global user.email (Cambiar correo de forma global)
 
-git pull (es merge+fetch a la misma vez)
-
-git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
+git config --global --unset-all user.name (Eliminar el user name, se puede hacer lo mismo para el correo)
