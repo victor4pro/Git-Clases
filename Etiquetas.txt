@@ -4,7 +4,7 @@ git log --all --graph (Muestra conexiones de ramas)
 
 git log --all --graph --decorate --oneline (Muestra conexiones de ramas pero más comprimidas)
 
-alias arbolito = "git log --all --graph" (truco de linux para comprimir comandos mounstrosos)
+alias arbolito="git log --all --graph" (truco de linux para comprimir comandos mounstrosos)
 
 git tag -a v0.1 -m "Nombre cualquier" #NumeroDeLog (Agrego un tag a un log)
 
