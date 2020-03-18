@@ -1,0 +1,7 @@
+git show-branch (muestra la historia de cada rama)
+
+git show-branch --all (Similar a la anterior pero con más datos)
+
+gitk (Comando ultra visual *,*)
+
+git push origin "NombreRama" (Envío otra rama al repositorio)
