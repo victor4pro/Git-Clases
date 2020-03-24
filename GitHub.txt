@@ -18,3 +18,8 @@ ssh-add ~/.ssh/id_rsa (Agregar llave privada a la pc)
 
 eval $(ssh-agent -s) (Verificar si el programa de llaves esté corriendo SSH Agent en tu máquina Windows y Linux)
 
+Watch (Cualquier conversación que ocurra durante el proyecto la podré ver)
+Star (Avisos cuando las cosas cambien en el proyecto)
+Fork (Clonar el proyecto pero github)
+
+git remote upstream "Link de donde quiero traer los cambios" (Agrego otro link para traer cambios de un proyecto publico)
