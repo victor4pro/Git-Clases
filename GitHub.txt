@@ -26,3 +26,5 @@ git remote upstream "Link de donde quiero traer los cambios" (Agrego otro link p
 
 editor.md (Página donde puedo editar archivos de texto de una forma calidad con lenguaje intermdio mark down)
 get emoji (Vero como escribir emojis en archivos readme.md)
+
+github pages (Puedo tener mi página web en un servidor de gitHub)
