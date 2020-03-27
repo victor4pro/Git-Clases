@@ -1,0 +1,5 @@
+rebase (Pegar una rama en el master como si no pasara nada)
+
+git rebase "Nombre de la rama" (Pegar traer los cambios de otra rama)
+
+git branch -D 'Nombre de la rama' (Borrar rama)
