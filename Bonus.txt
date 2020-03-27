@@ -1,0 +1,17 @@
+git shortlog (Muestra cuantos commits ha hecho cada miembro del equipo)
+
+git shortlog -sn --all (Muestra solo las personas que han hecho commits)
+
+git shortlog -sn -all --no-merges (Muestra las personas que han hecho commits pero sin incluir los merges)
+
+git config --global alias.stats "linea de comando" (Crea el alias stats en la consola de git)
+
+git blame "NombreDeArchivo" (Veo que han hecho y quien en los commits)
+
+git branch -r (Veo las ramas del lado del servidor)
+git branch -a (Veo todas las ramas locales y las del servidor)
+
+git grep "NombreDePalabra" (Comando para buscar apariciones de texto en los archivos)
+git grep -n "NombreDePalabra" (Me indica en que lineas está la palabra)
+git grep -c "NombreDePalabra" (Indica cantidad de veces que aparece la palabra y en donde)
+git log -S "NombreDePalabra" (Comando para encontrar apariciones de texto pero en los commits)
