@@ -1,7 +1,7 @@
 git log --all (muestra absolutamente todos los cambios y no solamente los últimos)
 
 git log --all --graph (Muestra conexiones de ramas)
-
+git log --oneline (Como graph pero sin las rayas)
 git log --all --graph --decorate --oneline (Muestra conexiones de ramas pero más comprimidas)
 
 alias arbolito="git log --all --graph" (truco de linux para comprimir comandos mounstrosos)

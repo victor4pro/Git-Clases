@@ -1,7 +1,6 @@
 git config --list or git config -l (Para ver parámetros de configuración)
 
 git reset "#log" --hard (Vuelve a la version pero no guarda con los que esté en el staging area)
-
 git reset "#log" --soft (Vuelve a la versión anterior guardando los que esté en staging area preparado así para algún commit)
 
 ls -al (Veo todos los archivos incluso los archivos que están ocultos)
@@ -18,7 +17,11 @@ git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda
 
 git reset HEAD: Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
 
-git stash (Graba el status del directorio actual pero quieres volver a otro estado previo de los archivos)
+git stash (Graba el status del directorio actual en un lugar temporal - para poder ir sin problema a otra branch)
+git stash list (Veo la lista de los stash guardados)
+git stash pop (Vuelvo al cambio temporal guardado en el stash)
+git stash drop (Borrar el stash guardado en caso no querer utilizarlo)
+git stash branch "Nombre de la rama" (Me crea una rama con un stash)
 
 git restore "FileName" (Descarta los cambios hechos en el archivo antes del próximo commit)
 
@@ -32,3 +35,6 @@ git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma lo
 git pull (es merge+fetch a la misma vez)
 
 git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
+
+git clean --dry-run (Me dice que archivos basura me puede eliminar)
+git clean -f (Me borra los archivos basura)
