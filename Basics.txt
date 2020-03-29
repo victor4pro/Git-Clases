@@ -13,20 +13,18 @@ git commit --ammend (Enmendo el último commit)
 
 git log (Observo código de creaciones de punto de control)
 
-git checkout (Vuelvo los cambios)
+git checkout #log (Vuelvo los cambios a un log)
 
 git diff #log1 - #log2 (Observo las diferencias entre dos logs)
 
 .gitnore (Archivo donde debo escribir otros archivos a ser ignorados por git)
 
 git branch (Me indica en que rama estoy)
-
 git branch "nombre de la rama" (me cambio de rama)
 
 pwd (veo la dirección del directorio en el que estoy)
+ls -al (Veo todos los archivos incluso los archivos que están ocultos)
 
 git config --global user.name (Cambiar usuario de forma global)
-
 git config --global user.email (Cambiar correo de forma global)
-
 git config --global --unset-all user.name (Eliminar el user name, se puede hacer lo mismo para el correo)

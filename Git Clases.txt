@@ -3,8 +3,6 @@ git config --list or git config -l (Para ver parámetros de configuración)
 git reset "#log" --hard (Vuelve a la version pero no guarda con los que esté en el staging area)
 git reset "#log" --soft (Vuelve a la versión anterior guardando los que esté en staging area preparado así para algún commit)
 
-ls -al (Veo todos los archivos incluso los archivos que están ocultos)
-
 git log --stat (Veo los cambios por logs, cuales archivos se crearon y cuantos bytes nuevos se agregaron)
 
 git checkout "#log" "NombreArchivo" (Veo cierto archivo en algún status anterior)
@@ -24,13 +22,9 @@ git stash branch "Nombre de la rama" (Me crea una rama con un stash)
 
 git restore "FileName" (Descarta los cambios hechos en el archivo antes del próximo commit)
 
-git push (Hacer commit pero repositorio remoto)
-
 git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
 
 git merge (Fusionar ramas)
-
-git pull (es merge+fetch a la misma vez)
 
 git clean --dry-run (Me dice que archivos basura me puede eliminar)
 git clean -f (Me borra los archivos basura)
