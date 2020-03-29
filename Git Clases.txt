@@ -1,5 +1,5 @@
 git reset "#log" --hard (Vuelve a la version pero no guarda con los que esté en el staging area)
-git reset "#log" --soft (Vuelve a la versión anterior guardando los que esté en staging area preparado así para algún commit)
+git reset "#log" --soft (Vuelve a la versión anterior guardando pero los que esté en staging)
 
 git log --stat (Veo los cambios por logs, cuales archivos se crearon y cuantos bytes nuevos se agregaron)
 
