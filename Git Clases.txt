@@ -8,7 +8,6 @@ ls -al (Veo todos los archivos incluso los archivos que están ocultos)
 git log --stat (Veo los cambios por logs, cuales archivos se crearon y cuantos bytes nuevos se agregaron)
 
 git checkout "#log" "NombreArchivo" (Veo cierto archivo en algún status anterior)
-
 git checkout master "NombreArchivo" (Vuelvo el archivo a la ultima versión de log)
 
 git rm --cached "NombreArchivo" (Elimina los archivos del repositorio)
@@ -29,18 +28,11 @@ git push (Hacer commit pero repositorio remoto)
 
 git fetch (Trae al repositorio local desde el servidor, pero no lo copia en mis archivos)
 
-git merge (Después de ahcer fetch tengo que fusionar con mi archivo de forma local, con merge puedo fusionar las ramas 					*importante)
-			(Si al fucionar una rama existe un conflicto, se debe corregir luego agregar y hacer commit)
-git cherry-pick "#log" (Es traerse cambios de un commit pasado de alguna de las otras ramas creadas)
+git merge (Fusionar ramas)
 
 git pull (es merge+fetch a la misma vez)
-
-git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
-git commit --ammend (Enmendo el último commit)
 
 git clean --dry-run (Me dice que archivos basura me puede eliminar)
 git clean -f (Me borra los archivos basura)
 
 git reflog (Comando de logs de todo el que no olvida nada)
-git reset "#log" --hard "#log" (hacer reset pero borrando todo lo que se haya hecho)
-git reset "#log" --soft "#log" (Reset manteniendo los cambios que esten en staging area)

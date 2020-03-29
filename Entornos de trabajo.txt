@@ -3,3 +3,5 @@ rebase (Pegar una rama en el master como si no pasara nada)
 git rebase "Nombre de la rama" (Pegar traer los cambios de otra rama)
 
 git branch -D 'Nombre de la rama' (Borrar rama)
+
+git cherry-pick "#log" (Es traerse cambios de un commit pasado de alguna de las otras ramas creadas)

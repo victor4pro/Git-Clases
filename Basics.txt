@@ -7,8 +7,9 @@ git add "Nombre del archivo" (agrego archivos al staging area)
 git add . (Agrego todos los archivos a la vez al staging area)
 
 git commit (Crear punto de control - abre modo progarmación para salir esc+wq o esc+shift z)
-
 git commit -m "mensaje" (Hacer commit con un mensaje)
+git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
+git commit --ammend (Enmendo el último commit)
 
 git log (Observo código de creaciones de punto de control)
 
