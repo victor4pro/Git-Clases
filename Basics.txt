@@ -30,5 +30,3 @@ git config --global user.name (Cambiar usuario de forma global)
 git config --global user.email (Cambiar correo de forma global)
 git config --global --unset-all user.name (Eliminar el user name, se puede hacer lo mismo para el correo)
 git config --list or git config -l (Para ver parámetros de configuración)
-
-Actualizacion de prueba
