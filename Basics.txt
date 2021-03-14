@@ -6,7 +6,7 @@ git add "Nombre del archivo" (agrego archivos al staging area)
 
 git add . (Agrego todos los archivos a la vez al staging area)
 
-git commit (Crear punto de control - abre modo progarmación para salir esc+wq o esc+shift z)
+git commit (Crear punto de control - abre modo progarmación para salir esc+:wq o esc+shift z)
 git commit -m "mensaje" (Hacer commit con un mensaje)
 git commit -am (Hacer add y commit a la vez. Solo funciona con archivos que ya han pasado por add)
 git commit --ammend (Enmendo el último commit)
@@ -20,7 +20,8 @@ git diff #log1 - #log2 (Observo las diferencias entre dos logs)
 .gitnore (Archivo donde debo escribir otros archivos a ser ignorados por git)
 
 git branch (Me indica en que rama estoy)
-git branch "nombre de la rama" (me cambio de rama)
+git branch "nombre de la rama" (creo una nueva rama)
+git checkout "nombre de la rama" (me cambio a otra rama)
 
 pwd (veo la dirección del directorio en el que estoy)
 ls -al (Veo todos los archivos incluso los archivos que están ocultos)
